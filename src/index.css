@@ -12,6 +12,11 @@
   background-size: cover;
 }
 
+.spacer3{
+  height:100px;
+  background: #4ca4f7
+}
+
 .layer1 {
   background-image: url("assets/images/layered-waves-haikei-10.svg");
 }
@@ -19,6 +24,9 @@
 .body-gradient {
   height: 2000px;
   background: linear-gradient(to bottom, #4ca4f7, #005cb1);
+  display: block;
+  align-items: flex-start;
+  flex-direction: column;
 }
 
 .spacer2 {
@@ -35,6 +43,32 @@
 
 .footer {
   width: 100%;
-  height: 100px;
+  height: 80px;
   background: #ff9f61;
+}
+
+.description {
+  aspect-ratio: 1600/200;
+  background-repeat: no-repeat;
+  background-size: contain;
+  margin-left: 350px;
+  
+}
+
+.game-description{
+  position: absolute;
+  top: 380px; /* Ajusta la posición superior según tus necesidades */
+  left: 300px;
+}
+.image-container {
+  margin-top: 20px; /* Ajusta el valor del margen superior según tus necesidades */
+}
+.layer3 {
+  aspect-ratio: 1600/200;
+  background-repeat: no-repeat;
+  background-size: contain;
+  margin-left: 300px;
+  padding-top: 20%;
+  background-image: url("/src/assets/images/blob1.png");
+  margin-top:
 }
