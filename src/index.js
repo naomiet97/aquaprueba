@@ -9,4 +9,5 @@ window.addEventListener('DOMContentLoaded', () => {
       fish.src = fishImages[Math.floor(Math.random() * fishImages.length)];
       fish.classList.add('fish');
       fish.style.left = `${Math.random()
-  
+      }
+    }
