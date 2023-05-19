@@ -57,7 +57,7 @@ html {
 }
 
 .body-gradient {
-  height: 2600px;
+  height: 2700px;
   background: linear-gradient(to bottom, #4ca4f7, #005cb1);
   display: flex;
   flex-direction: column;
@@ -87,7 +87,7 @@ html {
 .inf-container {
   display: flex;
   align-items: center;
-  padding-top: 30%;
+  padding-top: 25%;
   padding-left: 10%;
 }
 
