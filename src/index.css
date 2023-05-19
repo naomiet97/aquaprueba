@@ -1,6 +1,11 @@
+@font-face {
+  font-family: "Bohemian Soul";
+  src: url("assets/fonts/Bohemian_Soul.otf") format("truetype");
+  font-family: "Richard Samuels";
+  src: url("assets/fonts/Richard_Samuels.otf") format("truetype");
+}
 html {
-  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
-    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-family: "Richard Samuels";
   font-size: 35px;
   color: white;
 }
@@ -41,7 +46,6 @@ html {
 
 .footer {
   width: 100%;
-  height: 80px;
   background: #ff9f61;
 }
 
@@ -53,10 +57,9 @@ html {
 }
 
 .body-gradient {
-  height: 2000px;
+  height: 2600px;
   background: linear-gradient(to bottom, #4ca4f7, #005cb1);
   display: flex;
-  align-items: flex-start; /* Align items to the top */
   flex-direction: column;
 }
 
@@ -69,13 +72,87 @@ html {
 .game-description {
   margin-top: 70px;
   text-align: center;
-  font-size: 40px;
-  padding-left: 10%;
-  padding-right: 10%;
-  justify-content: ;
+  font-size: 80px;
+  text-align: center;
   /* Adjust the value as needed to position it higher */
 }
+.cabriela-text {
+  color: #c92167;
+  font-size: 90px;
+  margin: 0%;
+}
+.sub-description {
+  color: #2b2a55;
+}
+.inf-container {
+  display: flex;
+  align-items: center;
+  padding-top: 30%;
+  padding-left: 10%;
+}
 
+.enemy-container {
+  display: flex;
+  align-items: center;
+}
+
+.enemy-description {
+  display: flex;
+  flex-direction: column;
+}
+
+.enemy1 {
+  height: 250px;
+  width: 250px;
+  background-color: red;
+  margin-right: 80px;
+}
+
+.enemy2 {
+  height: 250px;
+  width: 250px;
+  background-color: red;
+  margin-top: 80px;
+  margin-right: 80px;
+}
+
+.enemy3 {
+  height: 250px;
+  width: 250px;
+  background-color: red;
+  margin-top: 80px;
+  margin-right: 80px;
+}
+
+.enemy-text {
+  display: flex;
+  flex-direction: column;
+}
+
+.enemy-text1 {
+  height: 250px;
+  width: 250px;
+  margin-top: 80px;
+}
+
+.enemy-text2 {
+  height: 250px;
+  width: 250px;
+  margin-top: 80px;
+}
+
+.enemy-text3 {
+  height: 250px;
+  width: 250px;
+  margin-top: 80px;
+}
+
+.game-summary {
+  height: 900px;
+  width: 900px;
+  background-color: red;
+  margin-left: 30%;
+}
 .footer {
   width: 100%;
   height: 390px;
@@ -92,9 +169,9 @@ html {
 }
 
 .follow-us {
-  margin: 0px;
   color: black;
   font-size: 40px;
+  align-self: center;
 }
 
 .social-media {
@@ -103,7 +180,7 @@ html {
 
 .social-media img {
   height: 60px;
-  width: 150px;
+  width: 230px;
   align-self: center;
 }
 
@@ -155,7 +232,6 @@ a {
   font-weight: 500;
   margin-left: 40px;
   font-size: 35px;
-
 }
 
 .navigation a::after {
@@ -180,15 +256,31 @@ a {
   width: 300px;
   height: 100px;
   background: transparent;
-  border: 2px solid rgb(2, 2, 2);
+  border: 2px;
   outline: none;
-  border-radius: 8px;
+  border-radius: 47px;
   cursor: pointer;
   color: rgb(3, 3, 3);
   font-weight: 500;
   margin-left: 40px;
   transition: 0.5s;
   font-size: 35px;
+  font-family: "Richard Samuels";
+}
+.navigation a:hover {
+  color: black; /* Color predeterminado cuando se hace hover */
+}
+
+.navigation a:nth-child(1):hover {
+  color: #f9a200; /* Cambia el color del primer enlace cuando se hace hover */
+}
+
+.navigation a:nth-child(2):hover {
+  color: #5cbe00; /* Cambia el color del segundo enlace cuando se hace hover */
+}
+
+.navigation a:nth-child(3):hover {
+  color: #7e249c; /* Cambia el color del tercer enlace cuando se hace hover */
 }
 
 .navigation .btn-login:hover {
@@ -196,4 +288,16 @@ a {
   color: black;
 }
 
+.navigation .btn-login:hover.play-now {
+  background: rgb(231, 0, 85); /* Cambia el color de fondo que desees */
+  color: white; /* Cambia el color de texto que desees */
+}
 
+.description-blob {
+  bakground: url("./assets/images/description-blob.svg");
+  aspect-ratio: 850/100;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
