@@ -1,258 +1,509 @@
+Aletheia
+Aletheia#5400
+
+Sendin — 12/05/2023 16:22
+Que nos sirve en verdad para practicar
+Aletheia — 12/05/2023 16:22
+ok
+te pido por favor
+que no hagas ruidos
+Sendin — 12/05/2023 16:24
+Vale
+Aletheia — 12/05/2023 16:24
+no quieres estudiar?
+Sendin — 12/05/2023 16:24
+Vamos venga
+Aletheia — 12/05/2023 16:24
+si no quieres no pasa nada
+luego hablamos
+Sendin — 12/05/2023 16:24
+Que si quiero naomi
+Que cojones tio
+DEja ya de ser asi de una vez
+Dios
+xd
+Aletheia — 12/05/2023 16:24
+pero de ser como
+Sendin — 12/05/2023 16:25
+Da igual
+You missed a call from 
+Sendin
+ that lasted a few seconds.
+ — 12/05/2023 22:39
+You missed a call from 
+Sendin
+ that lasted a few seconds.
+ — 12/05/2023 22:39
+You missed a call from 
+Sendin
+ that lasted a minute.
+ — 12/05/2023 22:39
+Sendin
+ started a call that lasted an hour.
+ — 12/05/2023 22:40
+Aletheia — 12/05/2023 23:25
+le di click sin querer
+pero no tengo ganas de hablar
+Sendin
+ started a call that lasted an hour.
+ — 13/05/2023 09:44
+Aletheia
+ started a call that lasted 3 minutes.
+ — 13/05/2023 11:14
+Sendin
+ started a call that lasted 10 minutes.
+ — 13/05/2023 11:34
+Sendin
+ started a call that lasted an hour.
+ — 13/05/2023 13:48
+Sendin
+ started a call that lasted 2 hours.
+ — 13/05/2023 14:39
+Sendin
+ started a call that lasted 13 minutes.
+ — 15/05/2023 23:40
+Sendin
+ started a call that lasted 4 hours.
+ — 16/05/2023 18:24
+Aletheia — 16/05/2023 19:11
+function printer(cartridge, pages) {
+  // Inicio código
+  // const ink = {
+  //   cyan: cartridge.cyan,
+  //   magenta: cartridge.magenta,
+  //   yellow: cartridge.yellow
+  // };
+  let printedPages = 0;
+  for (let i = 0; i < pages.length; i++) {
+    const page = pages[i];
+
+    if (
+      cartridge.cyan < page.cyan 
+      cartridge.magenta < page.magenta 
+      cartridge.yellow < page.yellow
+    ) {
+      return -1;
+    }
+    cartridge.cyan -= page.cyan;
+    cartridge.magenta -= page.magenta;
+    cartridge.yellow -= page.yellow;
+    printedPages++;
+  }
+
+  return printedPages;
+
+  // Fin código
+}
+Aletheia — 16/05/2023 20:28
+class Dado {
+  lanzarDado() {
+    return Math.floor(Math.random() * 6) + 1;
+  }
+}
+let dado = new Dado();
+let resultado = dado.lanzarDado();
+console.log(resultado);
+
+class Player {
+  lanzarDado() {
+    return Math.ceil(Math.random() * 6);
+  }
+}
+
+class Dice {
+  constructor(diceFaces) {
+    this.diceFaces;
+  }
+}
+Aletheia
+ started a call that lasted a minute.
+ — 16/05/2023 22:13
+Sendin
+ started a call that lasted 18 minutes.
+ — 17/05/2023 16:07
+Aletheia
+ started a call that lasted 32 minutes.
+ — 18/05/2023 11:45
+Aletheia — 18/05/2023 12:04
+te fuiste??
+Sendin — 18/05/2023 12:05
+Me escuchas?
+Si te estoy hablando 😂
+Aletheia — 18/05/2023 12:05
+pues no te escuchas
+en un momento te llamo
+Sendin — 18/05/2023 12:06
+Es fallo mío seguro
+Aletheia
+ started a call that lasted 3 minutes.
+ — 18/05/2023 12:20
+Aletheia
+ started a call that lasted a minute.
+ — 18/05/2023 17:33
+Aletheia — 18/05/2023 18:12
+function isPalindrome(word) {
+  if (typeof word !== "string") {
+    return false;
+  }
+
+  const lowercaseWord = word.toLowerCase();
+  const length = lowercaseWord.length;
+
+  /*
+  
+Cuando i=0, lowercaseWord[0] = 'h' , lowercaseWord[3 - 0] = "a"
+=> Si 'h' es distinto de 'a', devuelve false.
+
+  return true;
+  */
+  for (let i = 0; i < length; i++) {
+    if (lowercaseWord[i] !== lowercaseWord.at(-1)) {
+      return false;
+    }
+  }
+
+  return true;
+}
+Aletheia — 18/05/2023 18:22
+for (let i = 0; i < length; i++) {
+    if (lowercaseWord[i] !== lowercaseWord[length - 1 - i]) {
+      return false;
+    }
+  }
+Sendin
+ started a call that lasted 2 hours.
+ — 18/05/2023 18:26
+Sendin
+ started a call that lasted 16 minutes.
+ — 18/05/2023 22:16
+Aletheia
+ started a call that lasted 4 minutes.
+ — 19/05/2023 17:24
+Aletheia
+ started a call that lasted 21 minutes.
+ — 19/05/2023 17:28
+Aletheia — 22/05/2023 19:59
+ERESOLVE - npm install --legacy-peer-deps
+You missed a call from 
+Sendin
+ that lasted a few seconds.
+ — 23/05/2023 22:09
+Sendin — Today at 00:33
+Mandame coñaso
+Aletheia — Today at 00:33
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="index.css">
+  <script type="module" src="index.js"></script>
+</head>
+
+<body>
+  <div class="container">
+    <div class="left-rocks"></div>
+    <div class="middle-area">
+      <img src="assets/images/background-fishes.svg" alt="Imagen" class="middle-image">
+      <div class="contenedor">
+        <div class="espacio"></div>
+        <div class="objeto objeto-corriendo"></div>
+        <div class="score"></div>
+    </div>
+    <div class="bubbles">
+      <span style="--i:18;"></span>
+      <span style="--i:8;"></span>
+      <span style="--i:12;"></span>
+      <span style="--i:23;"></span>
+      <span style="--i:6;"></span>
+      <span style="--i:34;"></span>
+      <span style="--i:21;"></span>
+      <span style="--i:18;"></span>
+      <span style="--i:11;"></span>
+      <span style="--i:5;"></span>
+      <span style="--i:18;"></span>
+      <span style="--i:7;"></span>
+      <span style="--i:17;"></span>
+      <span style="--i:20;"></span>
+      <span style="--i:28;"></span>
+      <span style="--i:22;"></span>
+      <span style="--i:25;"></span>
+    </div>
+  </div>
+  <div class="right-rocks"></div>
+</div>
+</body>
+
+</html>
 @font-face {
   font-family: "Bohemian Soul";
   src: url("assets/fonts/Bohemian_Soul.otf") format("truetype");
   font-family: "Richard Samuels";
   src: url("assets/fonts/Richard_Samuels.otf") format("truetype");
 }
-html {
-  font-family: "Richard Samuels";
-  font-size: 35px;
-  color: white;
+Expand
+message.txt
+4 KB
+document.addEventListener("DOMContentLoaded", function() {
+    const container = document.querySelector(".container");
+
+    function createBubble() {
+      const bubble = document.createElement("span");
+      bubble.style.setProperty("--i", Math.floor(Math.random() * 50) + 10);
+      container.appendChild(bubble);
+
+      setTimeout(function() {
+        bubble.remove();
+      }, 15000); // Eliminamos la burbuja después de 15 segundos
+    }
+
+    function generateBubbles() {
+      // Generamos una nueva burbuja cada 0.1 segundos
+      setInterval(function() {
+        createBubble();
+      }, 50);
+    }
+
+    generateBubbles();
+  });
+Sendin — Today at 00:36
+<div id="personaje" class="objeto"></div>
+.objeto {
+  /* Estilos del personaje /
 }
+.objeto-corriendo {
+  / Estilos de animación del personaje */
+}
+// Obtén una referencia al elemento del personaje
+const personaje = document.getElementById('personaje');
+
+// Variables para controlar el estado y la posición del personaje
+let isRunning = false;
+let positionX = 480;
+
+// Función para animar el personaje
+function animatePersonaje() {
+  // Alterna la clase "objeto-corriendo" para aplicar la animación
+  personaje.classList.toggle('objeto-corriendo');
+}
+
+// Función para mover el personaje hacia la izquierda
+function moveLeft() {
+  if (!isRunning) {
+    isRunning = true;
+    animatePersonaje();
+
+    // Mueve el personaje a la izquierda
+    positionX -= 10;
+    personaje.style.left = ${positionX}px;
+
+    // Detiene la animación después de cierto tiempo (ajusta el valor según tus necesidades)
+    setTimeout(() => {
+      isRunning = false;
+      animatePersonaje();
+    }, 500);
+  }
+}
+
+// Asocia la función moveLeft al evento de presionar la tecla de flecha izquierda
+document.addEventListener('keydown', (event) => {
+  if (event.key === 'ArrowLeft') {
+    moveLeft();
+  }
+});
+Sendin — Today at 00:44
+.objeto {
+  width: 84px;
+  height: 84px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 2;
+  background: url("assets/icons/shark.png") repeat-x 0 0;
+  background-size: 336px 84px;
+  background-position-x: 0;
+}
+document.addEventListener("DOMContentLoaded", function() {
+  const container = document.querySelector(".container");
+  const objeto = document.querySelector(".objeto");
+  const leftRocks = document.querySelector(".left-rocks");
+  const rightRocks = document.querySelector(".right-rocks");
+  const objetoWidth = objeto.offsetWidth;
+  const containerWidth = container.offsetWidth;
+
+  let direction = "left";
+  let positionX = containerWidth - objetoWidth;
+
+  function createBubble() {
+    // Código de creación de burbujas
+  }
+
+  function generateBubbles() {
+    // Código de generación de burbujas
+  }
+
+  function moveObject() {
+    if (direction === "left") {
+      if (positionX > 0) {
+        positionX -= 2;
+      } else {
+        direction = "right";
+      }
+    } else {
+      if (positionX < containerWidth - objetoWidth) {
+        positionX += 2;
+      } else {
+        direction = "left";
+      }
+    }
+
+    objeto.style.left = positionX + "px";
+    requestAnimationFrame(moveObject);
+  }
+
+  moveObject();
+  generateBubbles();
+});
+﻿
+Sendin
+Sendin#3250
+@font-face {
+  font-family: "Bohemian Soul";
+  src: url("assets/fonts/Bohemian_Soul.otf") format("truetype");
+  font-family: "Richard Samuels";
+  src: url("assets/fonts/Richard_Samuels.otf") format("truetype");
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: linear-gradient(to bottom, #4ca4f7, #005cb1);
+}
+
 .container {
   display: flex;
-  align-items: center;
-  justify-content: center;
+  height: 100vh;
 }
-.spacer {
-  aspect-ratio: 850/100;
-  width: 100%;
+
+.left-rocks {
+  flex: 1;
+  background-image: url("assets/images/left-rocks.svg");
   background-repeat: no-repeat;
-  background-position: center;
   background-size: cover;
+  background-position: center;
 }
 
-.spacer3 {
-  height: 100px;
-  background: #4ca4f7;
+.middle-area {
+  flex: 1;
+  position: relative;
+  overflow: hidden;
+  background-image: url("assets/images/background-fishes.svg");
+  opacity: 60%;
+  background-repeat: repeat; /* O repeat-x según tus necesidades */
+  background-size: auto; /* Modificación aquí */
+  background-position: center;
 }
 
-.layer1 {
-  background-image: url("assets/images/layered-waves-haikei-10.svg");
-}
-
-.spacer2 {
-  aspect-ratio: 680/200;
+.middle-content {
   width: 100%;
+  max-width: 100%;
+  height: auto;
+}
+
+.middle-image {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 1;
+}
+
+.right-rocks {
+  flex: 1;
+  background-image: url("assets/images/right-rocks.svg");
   background-repeat: no-repeat;
-  background-position: center;
   background-size: cover;
+  background-position: center;
+}
+
+.bubbles {
   position: relative;
-}
-
-.layer2 {
-  background-image: url("assets/images/layered-waves-haikei-8.svg");
-}
-
-.footer {
-  width: 100%;
-  background: #ff9f61;
-}
-
-.game-image {
-  align-self: center;
-  grid-row: span 5 / span 5;
-  grid-row-start: 1;
-  grid-column: 1 / -1;
-}
-
-.body-gradient {
-  height: 2700px;
-  background: linear-gradient(to bottom, #4ca4f7, #005cb1);
-  display: flex;
-  flex-direction: column;
-}
-
-.layer3 {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-
-.game-description {
-  margin-top: 70px;
-  text-align: center;
-  font-size: 80px;
-  text-align: center;
-  /* Adjust the value as needed to position it higher */
-}
-.cabriela-text {
-  color: #c92167;
-  font-size: 90px;
-  margin: 0%;
-}
-.sub-description {
-  color: #2b2a55;
-}
-.inf-container {
   display: flex;
   align-items: center;
-  padding-top: 25%;
-  padding-left: 10%;
+  justify-content: space-around;
 }
 
-.enemy-container {
-  display: flex;
-  align-items: center;
-}
-
-.enemy-description {
-  display: flex;
-  flex-direction: column;
-}
-
-.enemy1 {
-  height: 250px;
-  width: 250px;
-  background-color: red;
-  margin-right: 80px;
-}
-
-.enemy2 {
-  height: 250px;
-  width: 250px;
-  background-color: red;
-  margin-top: 80px;
-  margin-right: 80px;
-}
-
-.enemy3 {
-  height: 250px;
-  width: 250px;
-  background-color: red;
-  margin-top: 80px;
-  margin-right: 80px;
-}
-
-.enemy-text {
-  display: flex;
-  flex-direction: column;
-}
-
-.enemy-text1 {
-  height: 250px;
-  width: 250px;
-  margin-top: 80px;
-}
-
-.enemy-text2 {
-  height: 250px;
-  width: 250px;
-  margin-top: 80px;
-}
-
-.enemy-text3 {
-  height: 250px;
-  width: 250px;
-  margin-top: 80px;
-}
-
-.game-summary {
-  height: 900px;
-  width: 900px;
-  background-color: red;
-  margin-left: 30%;
-}
-.footer {
-  width: 100%;
-  height: 390px;
-  padding: 0;
+.bubbles span {
   position: relative;
+  width: 40px;
+  height: 40px;
+  background: rgba(105, 167, 237, 0.46);
+  margin: 0 4px;
+  border-radius: 50%;
+  box-shadow: 0 0 0 10px rgba(116, 166, 240, 0.391), 0 0 50px rgb(104, 156, 223),
+    0 0 100px rgba(31, 85, 140, 0.41);
+  animation: animate 5s ease-in-out infinite;
+  animation-duration: calc(250s / var(--i));
 }
 
-.footer-container {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  margin-bottom: 40px;
-  flex-direction: column;
+.bubbles span:nth-child(even) {
+  background: rgba(105, 167, 237, 0.46);
+  box-shadow: 0 0 0 20px rgba(116, 166, 240, 0.391), 0 0 50px rgb(104, 156, 223),
+    0 0 100px rgba(31, 85, 140, 0.41);
 }
 
-.follow-us {
-  color: black;
-  font-size: 40px;
-  align-self: center;
+@keyframes animate {
+  0% {
+    top: 100vh;
+    transform: translateX(0) scale(0);
+  }
+  100% {
+    top: -50vh;
+    transform: translateX(0) scale(1);
+  }
 }
 
-.social-media {
-  margin: 0px;
+@media (max-width: 768px) {
+  .container {
+    flex-direction: column;
+  }
+
+  .left-rocks,
+  .right-rocks {
+    flex-basis: 50%;
+    background-size: contain;
+  }
+
+  .middle-area {
+    overflow: initial;
+  }
+
+  .middle-content {
+    max-width: 100%;
+  }
 }
 
-.social-media img {
-  height: 60px;
-  width: 230px;
-  align-self: center;
-}
-
-.copyright {
-  font-size: 1em;
-  color: black;
-  align-items: center;
-  text-align: center;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
-  font-size: 10px;
-  margin: 5px;
-}
-
-.buttons-container {
-  display: flex;
-  font-size: 1.1em;
-  color: #ff9f61;
-  font-weight: 500;
-  margin-top: 50px;
-  margin-bottom: 25px;
-  justify-self: center;
-  align-self: center;
-  justify-content: center;
-}
-
-a {
-  text-decoration: none;
-  color: rgb(0, 0, 0);
-  padding: 0px 50px;
-}
-
-.buttons-container:hover {
-  text-decoration: none;
-  color: rgb(15, 12, 12);
-}
-
-.navigation {
-  display: flex;
-  padding: 20px;
-  justify-content: center;
-  align-items: center;
-}
-
-.navigation a {
+.contenedor {
+ 
+  margin: 0 auto;
   position: relative;
-  font-size: 1.5em;
-  color: rgb(6, 5, 5);
-  text-decoration: none;
-  font-weight: 500;
-  margin-left: 40px;
-  font-size: 35px;
+  overflow: hidden;
 }
 
-.navigation a::after {
-  content: "";
-  left: 0;
-  bottom: -6px;
-  width: 100%;
-  height: 3px;
-  background: rgb(4, 3, 3);
-  border-radius: 5px;
-  transform-origin: right;
-  transform: scaleX(0);
-  transition: transform 0.5s;
+.container-buttons-game {
+  margin-left: 50px;
+  font-size: 30px;
 }
 
-.navigation a:hover::after {
-  transform-origin: left;
-  transform: scaleX(1);
-}
-
-.navigation .btn-login {
+.restartButton {
   width: 300px;
   height: 100px;
   background: transparent;
@@ -260,44 +511,67 @@ a {
   outline: none;
   border-radius: 47px;
   cursor: pointer;
-  color: rgb(3, 3, 3);
+  color: rgb(3 3 3);
   font-weight: 500;
   margin-left: 40px;
   transition: 0.5s;
   font-size: 35px;
   font-family: "Richard Samuels";
 }
-.navigation a:hover {
-  color: black; /* Color predeterminado cuando se hace hover */
+
+.objeto {
+  width: 84px;
+  height: 84px;
+  position: absolute;
+  top: 22px;
+  left: 480px;
+  z-index: 2;
+  background: url("assets/icons/shark.png") repeat-x 0 0;
+  background-size: 336px 84px;
+  background-position-x: 0;
 }
 
-.navigation a:nth-child(1):hover {
-  color: #f9a200; /* Cambia el color del primer enlace cuando se hace hover */
+.objeto-corriendo {
+  animation: animarObjeto 0.25s steps(2) infinite;
 }
 
-.navigation a:nth-child(2):hover {
-  color: #5cbe00; /* Cambia el color del segundo enlace cuando se hace hover */
+.espacio {
+  height: 200%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  /* background-size: 50% 42px; */
 }
 
-.navigation a:nth-child(3):hover {
-  color: #7e249c; /* Cambia el color del tercer enlace cuando se hace hover */
+.medusa {
+  width: 134px;
+  height: 134px;
+  position: absolute;
+
+  /*  bottom: 1px; */
+  left: 600px;
+  z-index: 1;
+  background: url("../../assets/images/medusaenemigo134px.png") no-repeat;
 }
 
-.navigation .btn-login:hover {
-  background: white;
-  color: black;
+.pulpo {
+  width: 134px;
+  height: 134px;
+  background: url("../../assets/images/pulpoenemigo134px.png") no-repeat;
 }
 
-.navigation .btn-login:hover.play-now {
-  background: rgb(231, 0, 85); /* Cambia el color de fondo que desees */
-  color: white; /* Cambia el color de texto que desees */
+.tiburon {
+  width: 134px;
+  height: 134px;
+  background: url("../../assets/images/tiburonenemigo134.png") no-repeat;
 }
 
-.description-blob {
-  bakground: url("./assets/images/description-blob.svg");
-  aspect-ratio: 850/100;
-  width: 100%;
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
+@keyframes animarObjeto {
+  from {
+      background-position-x: -84px;
+  }
+
+  to {
+      background-position-x: -252px;
+  }
 }
