@@ -1,21 +1,6 @@
 Aletheia
 Aletheia#5400
 
-Sendin — 12/05/2023 16:22
-Que nos sirve en verdad para practicar
-Aletheia — 12/05/2023 16:22
-ok
-te pido por favor
-que no hagas ruidos
-Sendin — 12/05/2023 16:24
-Vale
-Aletheia — 12/05/2023 16:24
-no quieres estudiar?
-Sendin — 12/05/2023 16:24
-Vamos venga
-Aletheia — 12/05/2023 16:24
-si no quieres no pasa nada
-luego hablamos
 Sendin — 12/05/2023 16:24
 Que si quiero naomi
 Que cojones tio
@@ -244,7 +229,102 @@ Aletheia — Today at 00:33
   font-family: "Richard Samuels";
   src: url("assets/fonts/Richard_Samuels.otf") format("truetype");
 }
-Expand
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: linear-gradient(to bottom, #4ca4f7, #005cb1);
+}
+
+.container {
+  display: flex;
+  height: 100vh;
+}
+
+.left-rocks {
+  flex: 1;
+  background-image: url("assets/images/left-rocks.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.middle-area {
+  flex: 1;
+  position: relative;
+  overflow: hidden;
+  background-image: url("assets/images/background-fishes.svg");
+  opacity: 60%;
+  background-repeat: repeat; /* O repeat-x según tus necesidades */
+  background-size: auto; /* Modificación aquí */
+  background-position: center;
+}
+
+.middle-content {
+  width: 100%;
+  max-width: 100%;
+  height: auto;
+}
+
+.middle-image {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 1;
+}
+
+.right-rocks {
+  flex: 1;
+  background-image: url("assets/images/right-rocks.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.bubbles {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.bubbles span {
+  position: relative;
+  width: 40px;
+  height: 40px;
+  background: rgba(105, 167, 237, 0.46);
+  margin: 0 4px;
+  border-radius: 50%;
+  box-shadow: 0 0 0 10px rgba(116, 166, 240, 0.391), 0 0 50px rgb(104, 156, 223),
+    0 0 100px rgba(31, 85, 140, 0.41);
+  animation: animate 5s ease-in-out infinite;
+  animation-duration: calc(250s / var(--i));
+}
+
+.bubbles span:nth-child(even) {
+  background: rgba(105, 167, 237, 0.46);
+  box-shadow: 0 0 0 20px rgba(116, 166, 240, 0.391), 0 0 50px rgb(104, 156, 223),
+    0 0 100px rgba(31, 85, 140, 0.41);
+}
+
+@keyframes animate {
+  0% {
+    top: 100vh;
+    transform: translateX(0) scale(0);
+  }
+  100% {
+    top: -50vh;
+    transform: translateX(0) scale(1);
+  }
+}
+
+... (104 lines left)
+Collapse
 message.txt
 4 KB
 document.addEventListener("DOMContentLoaded", function() {
